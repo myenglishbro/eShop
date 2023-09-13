@@ -12,5 +12,12 @@ routerV.get("/", async (req, res) => {
   })
 
 
+  routerV.get("/chat", async (req, res) => {
+    res.render("chat")  ;
+  
+  })
+
+
+
 
 export default routerV
